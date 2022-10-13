@@ -1,10 +1,10 @@
 ---Create Table demo1
 CREATE TEMP TABLE demo1(
-	id date,
+	date date,
 	num int
 );
 
-insert into demo1 (id, num)
+insert into demo1 (date, num)
 values
 ('2022/2/5', 1),
 ('2022/2/5', 2),
@@ -13,11 +13,11 @@ values
 
 ---Create Table demo2
 CREATE TEMP TABLE demo2(
-	id date,
+	date date,
 	letter varchar(100)
 );
 
-insert into demo2 (id, letter)
+insert into demo2 (date, letter)
 values 
 ('2022/2/5', 'A'),
 ('2022/2/5', 'Y'),
@@ -35,12 +35,9 @@ from demo2
 ---Left Join
 select * 
 from demo1
-left join demo2 on demo1.id = demo2.id
+left join demo2 on demo1.date = demo2.date
 
 ---Inner Join
 select * 
 from demo1
-inner join demo2 on demo1.id = demo2.id
-
-
-
+inner join demo2 on demo1.date = demo2.date
