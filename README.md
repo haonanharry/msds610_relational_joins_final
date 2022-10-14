@@ -13,7 +13,10 @@ When we are creating a left join, you can think of the process similar to that o
 
 # Inner Joins
 
+Here are some alternative visualizations that explain inner joins.
+
 <img width="759" alt="Screen Shot 2022-10-13 at 10 46 33 PM" src="https://user-images.githubusercontent.com/112201010/195771458-aa6abc60-59c7-4eba-819a-f7eb3638c023.png">
-
-
+ 
 <img width="1320" alt="Screen Shot 2022-10-13 at 10 47 34 PM" src="https://user-images.githubusercontent.com/112201010/195771598-cbc9c6c9-2c7b-4f25-a0e7-874ea4aaa4a1.png">
+
+The above visualizations help in understanding the execution of inner join in an intuitive way. The SQL Server Engine iterates through all the records in the first table and for each record it finds a matching record in the second table. Unlike left join, inner join returns only the matching records from both the tables including the duplicate records.
