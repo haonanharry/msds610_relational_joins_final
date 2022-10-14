@@ -1,5 +1,17 @@
 # msds610_relational_joins_final
 
+# What Venn Diagrams do not tell you
+
+Venn Diagrams like these are originally created for set theory.
+
+<img width="579" alt="Screen Shot 2022-10-13 at 11 22 11 PM" src="https://user-images.githubusercontent.com/109090913/195776769-4a561139-3209-4dad-9bf0-b1bb607f4bd1.png">
+
+They do not actually tell us how join works or answer questions like the following:
+
+<img width="433" alt="Screen Shot 2022-10-13 at 11 21 44 PM" src="https://user-images.githubusercontent.com/109090913/195777397-1a2a5736-6163-44fd-8187-7bb785d71abf.png">
+
+Elements in a set are unique, but rows in a table might not be unique. There are better diagrams than Venn diagrams that help explain how joins work. 
+
 
 # Left Joins
 
